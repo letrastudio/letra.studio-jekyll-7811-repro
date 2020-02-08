@@ -1,0 +1,8 @@
+Gemfile.lock
+node_modules
+_aws_logs
+_site
+.jekyll-cache
+.sass-cache
+.env
+functions

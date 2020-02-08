@@ -1,0 +1,62 @@
+:root {
+  color-scheme: light dark;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --body-background-color: #{$body-background-color};
+    --main-background-color: #{$dark-mode-black};
+    --base-font-color: #{$dark-mode-white};
+    --faded-font-color: #{$light-gray};
+    --blockquote-font-color: var(--faded-font-color);
+    --figcaption-font-color: var(--faded-font-color);
+    --link-color: #{$blue};
+    --link-hover-color: #{lighten($blue, 7%)};
+    --link-active-color: #{lighten($blue, 14%)};
+    --base-border-color: #{$dark-gray};
+    
+    --secondary-font-color: #{$medium-gray};
+    --draft-background-color: #{$black-gray};
+    --star-rating-color: #{$star-rating-color};
+    --star-rating-muted-color: #bdbdbd;
+    
+    @if $include-table-styles == true {
+      --table-border-color: var(--base-border-color);
+      --thead-background-color: #{$black-gray};
+    }
+    
+    @if $include-code-styles == true {
+      --code-font-color: #{$dark-mode-white};
+      --code-background-color: #{$black-gray};
+      --pre-font-color: var(--code-font-color);
+      --pre-background-color: var(--code-background-color);
+    }
+    
+    @if $include-form-styles == true {
+      --button-color: #{$button-color};
+      --button-hover-color: #{lighten($button-color, 7%)};
+      --button-active-color: #{lighten($button-color, 14%)};
+      --button-font-color: #{$button-font-color};
+      --input-box-shadow: #{$input-box-shadow};
+      --input-placeholder-color: #{rgba($dark-mode-white, 0.4)};
+    }
+    
+    --highlight-font-color: #{$dark-mode-white};
+    --highlight-background: #{$black-gray};
+    --highlight-com: #717b84;
+    --highlight-tag: #32c454;
+    --highlight-key: #f05339;
+    --highlight-opr: var(--highlight-key);
+    --highlight-num: #ff62b0;
+    --highlight-str: #bdc4f2;
+    --highlight-fnc: #7987f0;
+    --highlight-blt: var(--highlight-fnc);
+    --highlight-var: #eb9948;
+    --highlight-err: #ff0000;
+    --highlight-inv: var(--highlight-err);
+    --highlight-ins: #0c530c;
+    --highlight-inb: #9bf29b;
+    --highlight-del: #bb1b1d;
+    --highlight-deb: #c26865;
+  }
+}

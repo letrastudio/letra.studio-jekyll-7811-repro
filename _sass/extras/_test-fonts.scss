@@ -1,0 +1,33 @@
+@font-face {
+  font-family: "InputSansNarrow";
+  src: url('../fonts/InputSansNarrow-Light_TRIAL.woff2') format("woff2");
+  font-weight: 300;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "InputSansNarrow";
+  src: url('../fonts/InputSansNarrow-Medium_TRIAL.woff2') format("woff2");
+  font-weight: 500;
+  font-style: normal;
+}
+
+
+@font-face {
+  font-family: "OutputSansVariable";
+  src: url('../fonts/OutputSansVariable.woff2') format("woff2");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "InputSansNarrowVariable";
+  src: url('../fonts/InputSansNarrowVariable.woff') format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@import "./output-sans-trial";
+@import "./atlas-grotesk-trial";
+@import "./input-system-trial";
+@import "./blanco-trial";

@@ -1,0 +1,17 @@
+---
+layout: default
+---
+
+<div class="wrapper">
+  
+  {% include site-header.html %}
+  
+  <main id="main" {%- if page.url == "/" %} class="homepage"{% endif %}>
+    {{ content }}
+  </main>
+  
+  {% unless page.url == "/" %}
+  {% include author-footer.html %}
+  {% endunless %}
+
+</div>

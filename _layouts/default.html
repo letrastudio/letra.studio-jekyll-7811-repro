@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html lang="{{ page.lang | default: site.lang | default: 'en' }}">
+
+{% include head.html %}
+
+<body>
+  <a href="#main" id="skip-to-main">skip to main content</a>
+  <div class="page-wrapper">
+    {% include icons.svg %}
+    {{ content }}
+  </div>
+</body>
+
+</html>

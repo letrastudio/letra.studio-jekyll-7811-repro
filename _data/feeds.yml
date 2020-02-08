@@ -1,0 +1,16 @@
+- name: blog
+  menu: true
+  feeds:
+  - name: articles
+  - name: links
+- name: notes
+  menu: true
+  feeds:
+  - name: microblog
+  - name: photos
+  - name: reviews
+    feeds:
+    - name: film
+    - name: tv
+    - name: videogames
+    - name: books

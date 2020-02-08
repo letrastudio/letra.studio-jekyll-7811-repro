@@ -1,0 +1,36 @@
+:root {
+  scroll-behavior: smooth;
+  @media (prefers-reduced-motion: reduce) {
+    scroll-behavior: auto;
+  }
+}
+
+.page-wrapper {
+  background-color: $main-background-color;
+  background-color: var(--main-background-color);
+  min-height: 100vh;
+}
+
+.wrapper {
+  margin: 0 auto;
+  max-width: $page-max-width;
+  padding: $box-padding $box-padding * 0.875 $box-padding * 3;
+  @include media(min-width 40rem) {
+    padding: $box-padding * 2 $box-padding * 2 $box-padding * 3;
+  }
+  @include flush-margins(3);
+}
+
+// Constrain any element to standard line width
+.text-wrapper {
+  max-width: $text-max-width;
+}
+
+.wrapper.text-wrapper {
+  box-sizing: content-box;
+  max-width: $text-max-width;
+  > * {
+    box-sizing: border-box;
+  }
+}
+
