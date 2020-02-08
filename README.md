@@ -1,4 +1,4 @@
-This repo reproduces https://github.com/jekyll/jekyll/issues/7811
+This repo reproduces jekyll/jekyll#7811
 
 The bug manifests itself in the `feed.html` layout, where `{{ content }}` is called. If the following conditions are true, `{{ content }}` might return the value for a different instance of the `feed` layout:
 
