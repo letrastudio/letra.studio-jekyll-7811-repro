@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
-  <id>http://localhost:4000/blog/articles/feed.xml</id>
+  <id>http://localhost:4000/letra.studio-jekyll-7811-repro/blog/articles/feed.xml</id>
   <title>Letra Studio — Articles</title>
   <subtitle>From the desk of João Beleza Freire.</subtitle>
   <category term="articles" label="Articles"/>
-  <updated>2020-02-08T13:56:43+00:00</updated>
-  <link href="http://localhost:4000/blog/articles/feed.xml" rel="self" type="application/atom+xml"/>
-  <link href="http://localhost:4000/blog/articles/" rel="alternate" type="text/html"/>
-  <icon>http://localhost:4000/assets/icons/favicon-512.png</icon>
+  <updated>2020-02-08T15:30:52+00:00</updated>
+  <link href="http://localhost:4000/letra.studio-jekyll-7811-repro/blog/articles/feed.xml" rel="self" type="application/atom+xml"/>
+  <link href="http://localhost:4000/letra.studio-jekyll-7811-repro/blog/articles/" rel="alternate" type="text/html"/>
+  <icon>http://localhost:4000/letra.studio-jekyll-7811-repro/assets/icons/favicon-512.png</icon>
   <author>
     <name>João Beleza Freire</name>
     <email>hello@letra.studio</email>

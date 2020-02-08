@@ -2,14 +2,14 @@
   "version": "https://jsonfeed.org/version/1",
   "title": "Letra Studio — Blog",
   "description": "About the web and other things. Usually a few links per week, a couple articles per year.",
-  "feed_url": "http://localhost:4000/blog/feed.json",
-  "home_page_url": "http://localhost:4000/blog/",
-  "icon": "http://localhost:4000/assets/icons/favicon-512.png",
-  "favicon": "http://localhost:4000/assets/icons/favicon.ico",
+  "feed_url": "http://localhost:4000/letra.studio-jekyll-7811-repro/blog/feed.json",
+  "home_page_url": "http://localhost:4000/letra.studio-jekyll-7811-repro/blog/",
+  "icon": "http://localhost:4000/letra.studio-jekyll-7811-repro/assets/icons/favicon-512.png",
+  "favicon": "http://localhost:4000/letra.studio-jekyll-7811-repro/assets/icons/favicon.ico",
   "author": {
     "name": "João Beleza Freire",
     "url": "https://letra.studio",
-    "avatar": "http://localhost:4000/assets/icons/avatar.jpg"
+    "avatar": "http://localhost:4000/letra.studio-jekyll-7811-repro/assets/icons/avatar.jpg"
   },
   "items": [
   ]

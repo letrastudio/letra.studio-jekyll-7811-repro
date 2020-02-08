@@ -2,14 +2,14 @@
   "version": "https://jsonfeed.org/version/1",
   "title": "Letra Studio — Articles",
   "description": "From the desk of João Beleza Freire.",
-  "feed_url": "http://localhost:4000/blog/articles/feed.json",
-  "home_page_url": "http://localhost:4000/blog/articles/",
-  "icon": "http://localhost:4000/assets/icons/favicon-512.png",
-  "favicon": "http://localhost:4000/assets/icons/favicon.ico",
+  "feed_url": "http://localhost:4000/letra.studio-jekyll-7811-repro/blog/articles/feed.json",
+  "home_page_url": "http://localhost:4000/letra.studio-jekyll-7811-repro/blog/articles/",
+  "icon": "http://localhost:4000/letra.studio-jekyll-7811-repro/assets/icons/favicon-512.png",
+  "favicon": "http://localhost:4000/letra.studio-jekyll-7811-repro/assets/icons/favicon.ico",
   "author": {
     "name": "João Beleza Freire",
     "url": "https://letra.studio",
-    "avatar": "http://localhost:4000/assets/icons/avatar.jpg"
+    "avatar": "http://localhost:4000/letra.studio-jekyll-7811-repro/assets/icons/avatar.jpg"
   },
   "items": [
   ]
