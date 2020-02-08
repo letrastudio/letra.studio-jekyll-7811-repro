@@ -26,7 +26,7 @@ defaults:
 email: hello@letra.studio
 description: The one-man studio of João Beleza Freire. Making the Internet a better place, one website at a time.
 url: https://letra.studio
-baseurl: 
+baseurl: /letra.studio-jekyll-7811-repro
 
 auth_endpoint: https://indieauth.com/auth
 token_endpoint: https://tokens.indieauth.com/token
