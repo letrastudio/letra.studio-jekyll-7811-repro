@@ -1,4 +1,16 @@
----
-layout: json-feed
-category: reviews
----
+{
+  "version": "https://jsonfeed.org/version/1",
+  "title": "Letra Studio — Reviews",
+  "description": "Musings about media. Mostly movies.",
+  "feed_url": "http://localhost:4000/notes/reviews/feed.json",
+  "home_page_url": "http://localhost:4000/notes/reviews/",
+  "icon": "http://localhost:4000/assets/icons/favicon-512.png",
+  "favicon": "http://localhost:4000/assets/icons/favicon.ico",
+  "author": {
+    "name": "João Beleza Freire",
+    "url": "https://letra.studio",
+    "avatar": "http://localhost:4000/assets/icons/avatar.jpg"
+  },
+  "items": [
+  ]
+}

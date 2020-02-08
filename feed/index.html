@@ -1,11 +1,65 @@
-<svg width="0" height="0" focusable="false" aria-hidden="true" class="spritesheet">
-  {% comment %}
-  <!--
-  Usage examples:
-  <svg class="icon" viewBox="0 0 24 24" width="1em" height="1em"><use xlink:href="#icon-email"></use></svg>
-  <svg class="rating" viewBox="0 0 128 24" width="4em" height="0.75em"><use xlink:href="#rating-4"></use></svg>
-  -->
-  {% endcomment %}
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+<title>Letra Studio — All Posts</title>
+
+<meta name="robots" content="noindex, nofollow">
+
+<link rel="preload" href="/assets/fonts/InputSansNarrow-Regular.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="/assets/fonts/InputSansNarrow-Italic.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="/assets/fonts/InputSansNarrow-Bold.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="stylesheet" href="/assets/css/style.css">
+
+<link rel="canonical" href="http://localhost:4000/feed/" />
+
+
+<link rel="alternate" title="JSON Feed" type="application/json" href="/feed.json" />
+<link rel="alternate" title="RSS (Atom) Feed" type="application/atom+xml" href="/feed.xml" />
+
+<meta name="author" content="João Beleza Freire" />
+<meta name="description" content="This feed has everything. Blog and notes, together." />
+
+<meta property="og:title" content="All Posts" />
+<meta property="og:url" content="http://localhost:4000/feed/" />
+<meta property="og:site_name" content="Letra Studio" />
+<meta property="og:description" content="This feed has everything. Blog and notes, together." />
+
+
+
+<meta property="og:image" name="twitter:image" content="http://localhost:4000/assets/icons/social.png" />
+<meta name="twitter:card" content="summary" />
+<meta name="twitter:site" content="@letrastudio" />
+<meta name="twitter:creator" content="@letrastudio" />
+
+<link rel="shortcut icon" href="/assets/icons/favicon.ico">
+<link rel="apple-touch-icon-precomposed" href="/assets/icons/favicon-512.png">
+<meta name="apple-mobile-web-app-title" content="Letra Studio">
+<meta name="color-scheme" content="light dark">
+<meta name="theme-color" content="#6495ed">
+<meta name="msapplication-TileColor" content="#ffffff">
+<meta name="msapplication-TileImage" content="/assets/icons/favicon-512.png">
+<meta name="generator" content="Jekyll v4.0.0" />
+
+<link rel="me" href="mailto:hello@letra.studio" />
+<link rel="authorization_endpoint" href="https://indieauth.com/auth">
+<link rel="token_endpoint" href="https://tokens.indieauth.com/token">
+<link rel="micropub" href="http://localhost:4000/.netlify/functions/micropub">
+
+<script src="/assets/js/video-embed.js" async></script>
+
+</head>
+
+
+<body>
+  <a href="#main" id="skip-to-main">skip to main content</a>
+  <div class="page-wrapper">
+    <svg width="0" height="0" focusable="false" aria-hidden="true" class="spritesheet">
+  
   <symbol id="icon-email" viewBox="0 0 24 24" fill="currentColor" fill-rule="evenodd">
     <title>Email</title>
     <path d="M24 18.997a2.004 2.004 0 0 1-2.006 2.004l-19.99.005A2.002 2.002 0 0 1 0 19.003V8l12 9 12-9v10.997zM24 5l-12 9L0 4.995A2 2 0 0 1 2.005 3h19.99A2 2 0 0 1 24 5z"></path>
@@ -51,3 +105,71 @@
     <path d="M0 2h23v2H0V2zm0 6h22v2H0V8zm0 6h24v2H0v-2zm0 6h16v2H0v-2z"></path>
   </symbol>
 </svg>
+
+    <div class="wrapper">
+  
+  <header class="site-header">
+  
+  
+  <div class="logo">
+    <a href="/">
+      <svg width="120px" height="51px" viewBox="0 0 120 51" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+  <title>Letra Studio</title>
+  <g id="Website-Logo" fill="currentColor" fill-rule="evenodd">
+    <path d="M.98 0h3.75v16.92h9.21v3.29H.98V0zm18.2 0h13.5v3.3h-9.75V8.3h9.5v3.27h-9.5v5.34h9.87v3.29H19.17V0zm18.26 0h15.93v3.26h-6.1v16.95h-3.74V3.26h-6.1V0zm27.93 14.4h-3.1v5.8h-3.74V0h8.89a7.1 7.1 0 0 1 7.33 7.19 7.1 7.1 0 0 1-4.88 6.84l5.78 6.18h-4.97l-5.31-5.8zm1.56-3.23A3.87 3.87 0 0 0 71 7.2c0-2.22-1.59-3.96-4.07-3.96h-4.65v7.94h4.65zm32.56 9.04h-4.01l-1.36-3.52h-9.35L83.4 20.2H79.4L88.03 0h2.83l8.63 20.2zM89.44 4.4l-3.52 9.19h7.05l-3.53-9.18zM3.58 44.69c.29 1.9 1.5 3.26 3.81 3.26 2.1 0 3.44-1.13 3.44-2.95 0-1.53-.99-2.45-2.66-2.91l-2.6-.72c-3.12-.87-5.14-2.4-5.14-5.49 0-3.7 2.95-5.89 6.7-5.89 3.9 0 6.35 2.63 6.53 5.98h-3.44c-.14-1.65-1.21-2.92-3.12-2.92-1.87 0-2.97.98-2.97 2.51 0 1.56 1.12 2.17 2.77 2.63l2.51.72c3 .87 5.08 2.54 5.08 5.8 0 3.87-3.4 6.3-7.21 6.3C3 51 .43 48.46 0 44.68h3.58zm30.81-11.03H28.3V50.6h-3.75V33.65h-6.1v-3.26H34.4v3.26zm18.8-3.26h3.76v12.24c0 5.05-3.64 8.37-8.72 8.37s-8.72-3.32-8.72-8.37V30.39h3.75V42.7c0 3.2 2.05 5 4.97 5s4.97-1.8 4.97-5V30.4zm10.77 20.2V30.4h5.95c7.94 0 12.12 4.62 12.12 10.1 0 5.49-4.18 10.1-12.12 10.1h-5.95zm3.75-3.17h1.88c5.66 0 8.69-2.63 8.69-6.93s-3.03-6.93-8.7-6.93h-1.87v13.86zm20.4 3.18V30.39h3.76v20.2h-3.75zm20.6-20.62c6.44 0 10.74 4.65 10.74 10.51 0 5.86-4.3 10.51-10.74 10.51-6.4 0-10.74-4.62-10.74-10.5 0-5.87 4.33-10.52 10.74-10.52zm-6.98 10.51c0 3.87 2.62 7.28 6.98 7.28 4.4 0 6.99-3.41 6.99-7.28 0-3.9-2.6-7.27-6.99-7.27-4.36 0-6.98 3.37-6.98 7.27z" id="Letra-Studio-Logo"></path>
+  </g>
+</svg>
+    </a>
+  </div>
+  
+  
+  
+  
+  
+  
+  <nav class="site-nav">
+    <ul><li><a href="/blog/">blog</a></li>
+      <li><a href="/notes/">notes</a></li>
+      </ul>
+  </nav>
+</header>
+
+  
+  <main id="main">
+    
+
+<header class="section-header">
+  <h1 class="section-title">All Posts</h1>
+  <div class="text">
+    <p><code>{{ content }}</code>:</p>
+    <p class="feed-description error-highlight">This feed has everything. Blog and notes, together.
+</p>
+    <p><code>{{ page.content }}</code>:</p>
+    <p class="feed-description error-highlight">This feed has everything. Blog and notes, together.
+</p>
+    <p class="feeds"><svg class="icon" viewBox="0 0 24 24" width="0.875em" height="0.875em" aria-hidden="true"><use xlink:href="#icon-rss"></use></svg> Subscribe via <a href="/feed.xml">RSS</a> or <a href="/feed.json">JSON&nbsp;Feed</a>.</p>
+  </div>
+</header>
+
+
+  </main>
+  
+  
+  <footer>
+  <address class="author">
+    <img class="author-photo" src="/assets/icons/avatar-small.jpg" width="48" height="48" alt="">
+    <div class="author-info">
+      <a class="author-name" href="https://letra.studio" rel="author" lang="pt-PT">João Beleza Freire</a>
+      <br><a class="author-twitter" href="https://twitter.com/letrastudio">@letrastudio</a>
+    </div>
+  </address>
+</footer>
+
+  
+
+</div>
+
+  </div>
+</body>
+
+</html>

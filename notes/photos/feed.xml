@@ -1,4 +1,18 @@
----
-layout: atom-feed
-category: photos
----
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
+  <id>http://localhost:4000/notes/photos/feed.xml</id>
+  <title>Letra Studio — Photos</title>
+  <subtitle>Things I pointed my camera at.</subtitle>
+  <category term="photos" label="Photos"/>
+  <updated>2020-02-08T13:56:43+00:00</updated>
+  <link href="http://localhost:4000/notes/photos/feed.xml" rel="self" type="application/atom+xml"/>
+  <link href="http://localhost:4000/notes/photos/" rel="alternate" type="text/html"/>
+  <icon>http://localhost:4000/assets/icons/favicon-512.png</icon>
+  <author>
+    <name>João Beleza Freire</name>
+    <email>hello@letra.studio</email>
+    <uri>https://letra.studio</uri>
+  </author>
+  <generator uri="https://jekyllrb.com/" version="4.0.0">Jekyll</generator>
+  
+</feed>

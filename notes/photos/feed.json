@@ -1,4 +1,16 @@
----
-layout: json-feed
-category: photos
----
+{
+  "version": "https://jsonfeed.org/version/1",
+  "title": "Letra Studio — Photos",
+  "description": "Things I pointed my camera at.",
+  "feed_url": "http://localhost:4000/notes/photos/feed.json",
+  "home_page_url": "http://localhost:4000/notes/photos/",
+  "icon": "http://localhost:4000/assets/icons/favicon-512.png",
+  "favicon": "http://localhost:4000/assets/icons/favicon.ico",
+  "author": {
+    "name": "João Beleza Freire",
+    "url": "https://letra.studio",
+    "avatar": "http://localhost:4000/assets/icons/avatar.jpg"
+  },
+  "items": [
+  ]
+}

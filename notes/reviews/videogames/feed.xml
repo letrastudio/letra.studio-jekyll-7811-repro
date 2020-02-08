@@ -1,4 +1,17 @@
----
-layout: atom-feed
-category: videogames
----
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
+  <id>http://localhost:4000/notes/reviews/videogames/feed.xml</id>
+  <title>Letra Studio — Video Game Reviews</title>
+  <category term="videogames" label="Video Game Reviews"/>
+  <updated>2020-02-08T13:56:43+00:00</updated>
+  <link href="http://localhost:4000/notes/reviews/videogames/feed.xml" rel="self" type="application/atom+xml"/>
+  <link href="http://localhost:4000/notes/reviews/videogames/" rel="alternate" type="text/html"/>
+  <icon>http://localhost:4000/assets/icons/favicon-512.png</icon>
+  <author>
+    <name>João Beleza Freire</name>
+    <email>hello@letra.studio</email>
+    <uri>https://letra.studio</uri>
+  </author>
+  <generator uri="https://jekyllrb.com/" version="4.0.0">Jekyll</generator>
+  
+</feed>

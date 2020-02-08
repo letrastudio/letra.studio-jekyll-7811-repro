@@ -1,4 +1,18 @@
----
-layout: atom-feed
-category: blog
----
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
+  <id>http://localhost:4000/blog/feed.xml</id>
+  <title>Letra Studio — Blog</title>
+  <subtitle>About the web and other things. Usually a few links per week, a couple articles per year.</subtitle>
+  <category term="blog" label="Blog"/>
+  <updated>2020-02-08T13:56:43+00:00</updated>
+  <link href="http://localhost:4000/blog/feed.xml" rel="self" type="application/atom+xml"/>
+  <link href="http://localhost:4000/blog/" rel="alternate" type="text/html"/>
+  <icon>http://localhost:4000/assets/icons/favicon-512.png</icon>
+  <author>
+    <name>João Beleza Freire</name>
+    <email>hello@letra.studio</email>
+    <uri>https://letra.studio</uri>
+  </author>
+  <generator uri="https://jekyllrb.com/" version="4.0.0">Jekyll</generator>
+  
+</feed>

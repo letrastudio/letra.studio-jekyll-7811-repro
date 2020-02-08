@@ -1,4 +1,16 @@
----
-layout: json-feed
-category: notes
----
+{
+  "version": "https://jsonfeed.org/version/1",
+  "title": "Letra Studio — Notes",
+  "description": "Social media all-in-one. My tweets, photos, and reviews.",
+  "feed_url": "http://localhost:4000/notes/feed.json",
+  "home_page_url": "http://localhost:4000/notes/",
+  "icon": "http://localhost:4000/assets/icons/favicon-512.png",
+  "favicon": "http://localhost:4000/assets/icons/favicon.ico",
+  "author": {
+    "name": "João Beleza Freire",
+    "url": "https://letra.studio",
+    "avatar": "http://localhost:4000/assets/icons/avatar.jpg"
+  },
+  "items": [
+  ]
+}

@@ -1,4 +1,16 @@
----
-layout: json-feed
-category: microblog
----
+{
+  "version": "https://jsonfeed.org/version/1",
+  "title": "Letra Studio — Microblog",
+  "description": "Tweets, toots, or whatever.",
+  "feed_url": "http://localhost:4000/notes/microblog/feed.json",
+  "home_page_url": "http://localhost:4000/notes/microblog/",
+  "icon": "http://localhost:4000/assets/icons/favicon-512.png",
+  "favicon": "http://localhost:4000/assets/icons/favicon.ico",
+  "author": {
+    "name": "João Beleza Freire",
+    "url": "https://letra.studio",
+    "avatar": "http://localhost:4000/assets/icons/avatar.jpg"
+  },
+  "items": [
+  ]
+}

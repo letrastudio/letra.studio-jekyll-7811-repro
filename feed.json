@@ -1,3 +1,16 @@
----
-layout: json-feed
----
+{
+  "version": "https://jsonfeed.org/version/1",
+  "title": "Letra Studio",
+  "description": "The one-man studio of João Beleza Freire. Making the Internet a better place, one website at a time.",
+  "feed_url": "http://localhost:4000/feed.json",
+  "home_page_url": "http://localhost:4000/feed/",
+  "icon": "http://localhost:4000/assets/icons/favicon-512.png",
+  "favicon": "http://localhost:4000/assets/icons/favicon.ico",
+  "author": {
+    "name": "João Beleza Freire",
+    "url": "https://letra.studio",
+    "avatar": "http://localhost:4000/assets/icons/avatar.jpg"
+  },
+  "items": [
+  ]
+}

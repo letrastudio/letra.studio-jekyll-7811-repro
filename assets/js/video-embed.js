@@ -1,6 +1,3 @@
----
----
-
 !function(){
   "use strict";
   !function(){
@@ -12,7 +9,7 @@
       if (provider == 'youtube' || provider == 'vimeo') {
         const button = document.createElement("button");
         button.setAttribute("aria-label", "Play");
-        button.innerHTML = '{% include icon.html icon="play" width="3em" %}';
+        button.innerHTML = '<svg class="icon" viewBox="0 0 24 24" width="3em" height="3em" aria-hidden="true"><use xlink:href="#icon-play"></use></svg>';
                
         const container = document.createElement("div");
         container.innerHTML = placeholder.innerHTML;
